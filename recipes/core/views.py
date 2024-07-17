@@ -9,9 +9,10 @@ class RecipeView(APIView):
     serializer_class = RecipeSerializer 
   
     def get(self, request): 
-        output = [ {"dish_name": output.dish_name,
-            "description": output.description}  
-            for output in Recipe.objects.all()] 
+        output = [ {"dish_name": recipe.dish_name,
+            "description": recipe.description,
+            "image": recipe.image.url if recipe.image else None}  
+            for recipe in Recipe.objects.all()] 
         return Response(output) 
   
     def post(self, request):
