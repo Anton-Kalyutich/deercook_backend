@@ -21,4 +21,5 @@ from core.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('recipes/', RecipeView.as_view(), name="recipes"), 
+    path('articles/', ArticleView.as_view(), name='articles')
 ]

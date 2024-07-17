@@ -20,3 +20,18 @@ class RecipeView(APIView):
             serializer.save() 
             return Response(serializer.data) 
 
+class ArticleView(APIView):
+
+    serializer_class = ArticleSerializer 
+  
+    def get(self, request): 
+        output = [ {"title": output.title,
+            "content": output.content}  
+            for output in Article.objects.all()] 
+        return Response(output) 
+    
+    def post(self, request):
+        serializer = ArticleSerializer(data=request.data) 
+        if serializer.is_valid(raise_exception=True): 
+            serializer.save() 
+            return Response(serializer.data)
