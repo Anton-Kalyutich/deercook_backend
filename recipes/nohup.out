@@ -1,0 +1,180 @@
+Watching for file changes with StatReloader
+[17/Jul/2024 21:10:56] "GET /recipes/ HTTP/1.1" 200 398
+[17/Jul/2024 21:10:56] "GET /articles/ HTTP/1.1" 200 4741
+[17/Jul/2024 21:10:56] "GET /articles/ HTTP/1.1" 200 4741
+[17/Jul/2024 21:10:56] "GET /recipes/ HTTP/1.1" 200 398
+[17/Jul/2024 21:11:53] "GET /recipes/ HTTP/1.1" 200 398
+[17/Jul/2024 21:11:59] "GET /recipes/ HTTP/1.1" 200 398
+[17/Jul/2024 21:12:08] "GET /recipes/ HTTP/1.1" 200 398
+[17/Jul/2024 21:12:49] "GET /recipes/ HTTP/1.1" 200 398
+[17/Jul/2024 21:12:54] "GET /recipes/ HTTP/1.1" 200 398
+[17/Jul/2024 21:12:55] "GET /recipes/ HTTP/1.1" 200 398
+[17/Jul/2024 21:12:55] "GET /recipes/ HTTP/1.1" 200 398
+[17/Jul/2024 21:13:09] "GET /recipes/ HTTP/1.1" 200 398
+[17/Jul/2024 21:13:09] "GET /recipes/ HTTP/1.1" 200 398
+[17/Jul/2024 21:13:26] "GET /recipes/ HTTP/1.1" 200 398
+[17/Jul/2024 21:23:03] "GET /recipes/ HTTP/1.1" 200 398
+[17/Jul/2024 21:23:03] "GET /articles/ HTTP/1.1" 200 4741
+[17/Jul/2024 21:23:03] "GET /articles/ HTTP/1.1" 200 4741
+[17/Jul/2024 21:23:03] "GET /recipes/ HTTP/1.1" 200 398
+[17/Jul/2024 21:24:13] "GET /recipes/ HTTP/1.1" 200 398
+[17/Jul/2024 21:24:13] "GET /articles/ HTTP/1.1" 200 4741
+[17/Jul/2024 21:24:13] "GET /articles/ HTTP/1.1" 200 4741
+[17/Jul/2024 21:24:13] "GET /recipes/ HTTP/1.1" 200 398
+[17/Jul/2024 21:25:28] "GET /articles/ HTTP/1.1" 200 4741
+[17/Jul/2024 21:25:28] "GET /articles/ HTTP/1.1" 200 4741
+[17/Jul/2024 21:35:57] "GET /recipes/ HTTP/1.1" 200 398
+[17/Jul/2024 21:35:57] "GET /articles/ HTTP/1.1" 200 4741
+[17/Jul/2024 21:35:57] "GET /recipes/ HTTP/1.1" 200 398
+[17/Jul/2024 21:35:57] "GET /articles/ HTTP/1.1" 200 4741
+[17/Jul/2024 22:13:12] code 400, message Bad request syntax ('MGLNDD_54.166.154.115_8000')
+[17/Jul/2024 22:13:12] "MGLNDD_54.166.154.115_8000" 400 -
+Not Found: /
+[17/Jul/2024 23:11:25] "GET / HTTP/1.1" 404 2315
+[18/Jul/2024 01:28:40] code 400, message Bad request version ('À\x14À')
+[18/Jul/2024 01:28:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+[18/Jul/2024 05:22:38] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03eQ{lCÜH*\x92Î\x82mÅs\x16')
+[18/Jul/2024 05:22:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+[18/Jul/2024 05:22:38] code 400, message Bad request syntax ('\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03®')
+[18/Jul/2024 05:22:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+[18/Jul/2024 06:28:11,810] - Broken pipe from ('167.94.145.99', 40378)
+Not Found: /
+[18/Jul/2024 06:28:15] "GET / HTTP/1.1" 404 2315
+[18/Jul/2024 06:28:15,113] - Broken pipe from ('167.94.145.99', 42222)
+Not Found: /
+[18/Jul/2024 06:28:18] "GET / HTTP/1.1" 404 2315
+[18/Jul/2024 06:28:19] code 505, message Invalid HTTP version (2.0)
+[18/Jul/2024 06:28:19] "PRI * HTTP/2.0" 505 -
+Not Found: /
+[18/Jul/2024 07:22:45] "GET / HTTP/1.1" 404 2315
+Not Found: /
+[18/Jul/2024 07:23:09] "GET / HTTP/1.1" 404 2315
+Not Found: /
+[18/Jul/2024 07:40:10] "GET / HTTP/1.1" 404 2315
+Not Found: /favicon.ico
+[18/Jul/2024 07:40:30] "GET /favicon.ico HTTP/1.1" 404 2366
+Not Found: /robots.txt
+[18/Jul/2024 07:40:31] "GET /robots.txt HTTP/1.1" 404 2363
+Not Found: /sitemap.xml
+[18/Jul/2024 07:40:33] "GET /sitemap.xml HTTP/1.1" 404 2366
+Not Found: /
+[18/Jul/2024 09:25:04] "GET / HTTP/1.1" 404 2315
+Not Found: /favicon.ico
+[18/Jul/2024 09:25:21] "GET /favicon.ico HTTP/1.1" 404 2366
+Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ec2-user/deercook_backend/venv/lib64/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ec2-user/deercook_backend/venv/lib64/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ec2-user/deercook_backend/venv/lib64/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ec2-user/deercook_backend/venv/lib64/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Bad Request: /http:/api.ipify.org/
+[18/Jul/2024 09:25:25] "GET http://api.ipify.org/?format=json HTTP/1.1" 400 65369
+Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ec2-user/deercook_backend/venv/lib64/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ec2-user/deercook_backend/venv/lib64/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ec2-user/deercook_backend/venv/lib64/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ec2-user/deercook_backend/venv/lib64/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Bad Request: /www.shadowserver.org:443
+[18/Jul/2024 09:25:28] "CONNECT www.shadowserver.org:443 HTTP/1.1" 400 65572
+Not Found: /
+[18/Jul/2024 11:39:27] "GET / HTTP/1.1" 404 2315
+Invalid HTTP_HOST header: 'ip-172-31-45-76.ec2.internal:8000'. You may need to add 'ip-172-31-45-76.ec2.internal' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ec2-user/deercook_backend/venv/lib64/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ec2-user/deercook_backend/venv/lib64/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ec2-user/deercook_backend/venv/lib64/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ec2-user/deercook_backend/venv/lib64/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'ip-172-31-45-76.ec2.internal:8000'. You may need to add 'ip-172-31-45-76.ec2.internal' to ALLOWED_HOSTS.
+Bad Request: /
+[18/Jul/2024 11:42:47] "GET / HTTP/1.0" 400 64501
+[18/Jul/2024 13:21:54,756] - Broken pipe from ('167.94.138.122', 56934)
+Not Found: /
+[18/Jul/2024 13:21:57] "GET / HTTP/1.1" 404 2315
+[18/Jul/2024 13:21:57,804] - Broken pipe from ('167.94.138.122', 56986)
+Not Found: /
+[18/Jul/2024 13:22:00] "GET / HTTP/1.1" 404 2315
+[18/Jul/2024 13:22:00] code 505, message Invalid HTTP version (2.0)
+[18/Jul/2024 13:22:00] "PRI * HTTP/2.0" 505 -
+[18/Jul/2024 13:51:53] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 13:51:53] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 13:51:53] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 13:51:53] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 13:54:16] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 13:54:16] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 13:59:25] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 13:59:25] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 13:59:25] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 13:59:25] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 13:59:58] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 13:59:58] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 13:59:58] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 13:59:58] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 13:59:59] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 13:59:59] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 13:59:59] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 13:59:59] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:00:33] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:00:33] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 14:00:33] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 14:00:33] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:00:35] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:00:35] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 14:00:35] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:00:35] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 14:01:36] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:01:36] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 14:01:36] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:01:36] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 14:01:46] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:01:46] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 14:01:46] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 14:01:46] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:01:58] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:01:58] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 14:01:58] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 14:01:58] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:01:59] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 14:01:59] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:01:59] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 14:01:59] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:02:00] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:02:00] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 14:02:00] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 14:02:00] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:02:00] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:02:00] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 14:02:00] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 14:02:00] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:02:08] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:02:08] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 14:02:08] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 14:02:08] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:02:31] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:02:31] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 14:02:31] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 14:02:31] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:03:23] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:03:23] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 14:03:23] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 14:03:23] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:15:35] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:15:35] "GET /articles/ HTTP/1.1" 200 4741
+[18/Jul/2024 14:35:31] "GET /recipes/ HTTP/1.1" 200 398
+[18/Jul/2024 14:35:31] "GET /articles/ HTTP/1.1" 200 4741
+Not Found: /
+[18/Jul/2024 14:46:36] "GET / HTTP/1.0" 404 2305
